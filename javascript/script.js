@@ -1,5 +1,6 @@
 
 var textoEntrada = document.querySelector("#textoEntrada");
+var pSaida = document.querySelector("#pSaida");
 
 function converteMinusculo(texto) {
     return String(texto).toLowerCase();

@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
 
         <script src="javascript/script.js" defer></script>
+        <script src="javascript/codificador.js" defer></script>
         <title>Decodificador</title>
     </head>
     <body>
@@ -14,11 +15,11 @@
             <div>
                 <textarea id="textoEntrada" placeholder="Digite seu texto aqui..."></textarea>
                 <span>Atenção! Não use letras maíusculas ou acentos.</span>
-                <button>Criptografar</button>
+                <button id="btnCodificar">Criptografar</button>
                 <button>Descriptografar</button>
             </div>
             <div>
-                <p>Texto Codificado...</p>
+                <p id="pSaida">Texto Codificado...</p>
                 <button>Copiar</button>
             </div>
         </main>
