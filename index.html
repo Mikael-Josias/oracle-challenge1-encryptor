@@ -3,6 +3,19 @@
     <head>
         <meta charset="UTF-8" />
 
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
         <script src="javascript/script.js" defer></script>
         <script src="javascript/codificador.js" defer></script>
         <script src="javascript/copiar.js" defer></script>
@@ -10,19 +23,22 @@
         <title>Decodificador</title>
     </head>
     <body>
-        <header>
-            <h1>Codificador<p>_</p></h1>
+        <header class="cabecalhoPrincipal">
+            <h1 class="cabecalhoPrincipal-titulo">Codificador</h1>
+            <p class="cabecalhoPrincipal-titulo">_</p>
         </header>
-        <main>
+        <main class="menuPrincipal">
             <div>
                 <textarea id="textoEntrada" placeholder="Digite seu texto aqui..."></textarea>
                 <span>Atenção! Não use letras maíusculas ou acentos.</span>
-                <button id="btnCodificar">Criptografar</button>
-                <button id="btnDecodificar">Descriptografar</button>
+                <div class="menuBotao">
+                    <button class="botao" id="btnCodificar">Criptografar</button>
+                    <button class="botao" id="btnDecodificar">Descriptografar</button>
+                </div>
             </div>
             <div>
                 <p id="pSaida">Texto Codificado...</p>
-                <button id="btnCopiar">Copiar</button>
+                <button class="botao" id="btnCopiar">Copiar</button>
             </div>
         </main>
         <footer>
