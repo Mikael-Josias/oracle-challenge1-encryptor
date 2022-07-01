@@ -22,6 +22,19 @@ body{
     color: rgb(0, 0, 26);
 }
 
+.pisca-animacao{
+    animation: pisca 600ms infinite;
+}
+
+@keyframes pisca {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .conteudoPrincipal{
     display: flex;
     flex-direction: column;
