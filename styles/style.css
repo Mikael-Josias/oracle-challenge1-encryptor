@@ -103,3 +103,15 @@ body{
     border-color: white;
     transition: .5s;
 }
+
+.rodapePrincipal{
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #191e3a;
+}
+
+.rodapePrincipal__item{
+    margin: 0 2rem;
+}
