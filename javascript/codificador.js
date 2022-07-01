@@ -40,6 +40,8 @@ function Codificador(texto){
 
 btnCodificar.addEventListener("click", function(){
     var textoCodificado = Codificador(textoEntrada.value);
+    
+    removeBackgroundCadeado();
     pSaida.innerHTML = textoCodificado;
 });
 
@@ -73,5 +75,13 @@ function Decodificador(texto) {
 
 btnDecodificar.addEventListener("click", function() {
     var textoDecodificado = Decodificador(textoEntrada.value);
+    
+    removeBackgroundCadeado();
     pSaida.innerHTML = textoDecodificado;
 });
+
+function removeBackgroundCadeado() {
+    var div = document.querySelector(".cadeadoImg");
+    
+    div.style.background = 'none';
+}
