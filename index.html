@@ -27,18 +27,23 @@
             <h1 class="cabecalhoPrincipal-titulo">Codificador</h1>
             <p class="cabecalhoPrincipal-titulo">_</p>
         </header>
-        <main class="menuPrincipal">
-            <div>
-                <textarea id="textoEntrada" placeholder="Digite seu texto aqui..."></textarea>
-                <span>Atenção! Não use letras maíusculas ou acentos.</span>
-                <div class="menuBotao">
-                    <button class="botao" id="btnCodificar">Criptografar</button>
-                    <button class="botao" id="btnDecodificar">Descriptografar</button>
+        <main class="conteudoPrincipal">
+            <div class="container">
+                <div class="container__card">
+                    <h2 class="subtexto">Digite seu texto:</h2>
+                    <textarea id="textoEntrada" class="inputEntrada"></textarea>
+                    <br/>
+                    <span>*Não digite maiúsculas e acentos!</span>
+                </div>
+                <div class="container__card cadeadoImg">
+                    <h2 class="subtexto">Texto codificado:</h2>
+                    <p id="pSaida" class="inputSaida"></p>
                 </div>
             </div>
-            <div>
-                <p id="pSaida">Texto Codificado...</p>
-                <button class="botao" id="btnCopiar">Copiar</button>
+            <div class="container__botoes">
+                <button id="btnCodificar" class="botao">Codificar</button>
+                <button id="btnDecodificar" class="botao">Decodificar</button>
+                <button id="btnCopiar" class="botao">Copiar</button>
             </div>
         </main>
         <footer>
