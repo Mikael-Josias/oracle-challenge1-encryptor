@@ -52,7 +52,6 @@ body{
 }
 
 .container__card{
-    width: calc(50% - 5px);
     height: 100%;
 }
 
@@ -131,4 +130,28 @@ body{
 
 .rodapePrincipal__item{
     margin: 0 2rem;
+}
+
+
+
+/* OUTROS TAMANHOS DE TELA*/
+
+@media screen and (min-width: 0){
+    .container{
+        flex-direction: column;
+    }
+
+    .container__card{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+
+    .container__card{
+        width: calc(50% - 5px);
+    }
 }
