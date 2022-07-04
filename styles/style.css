@@ -4,22 +4,24 @@ body{
     flex-direction: column;
 
     font-size: 1rem;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFBFE;
 }
 
 .cabecalhoPrincipal {
+    background-color: #152614;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0 5px;
-    border-bottom: 1px solid rgb(95, 95, 95);
+    border-bottom: 2px solid #2A7221;
 }
 
 .cabecalhoPrincipal-titulo{
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(0, 0, 26);
+    color: #FFFBFE;
 }
 
 .pisca-animacao{
@@ -57,7 +59,7 @@ body{
 .subtexto{
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .inputEntrada{
@@ -71,7 +73,8 @@ body{
     padding: 10px;
 
     border: 1px solid black;
-    border-radius: 15px;
+
+    box-shadow: 10px -10px #2A7221;
 
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
@@ -85,7 +88,7 @@ body{
 }
 
 .cadeadoImg{
-    background-image: url('../img/cadeado.png');
+    background-image: url('../img/lock.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -103,7 +106,8 @@ body{
     font-size: 1.5rem;
 
     border: 1px solid #191e3a;
-    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 5px -5px #2A7221;
 
     padding: 5px 0;
     width: 30%;
@@ -111,7 +115,7 @@ body{
 }
 
 .botao:hover{
-    background-color: #191e3a;
+    background-color: #2A7221;
     color: white;
     border-color: white;
     transition: .5s;
@@ -122,7 +126,7 @@ body{
     padding: 15px 0;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #191e3a;
+    border-top: 2px solid #2A7221;
 }
 
 .rodapePrincipal__item{
