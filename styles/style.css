@@ -136,7 +136,7 @@ body{
 
 /* OUTROS TAMANHOS DE TELA*/
 
-@media screen and (min-width: 0){
+@media only screen and (min-width: 0){
     .container{
         flex-direction: column;
     }
@@ -146,7 +146,7 @@ body{
     }
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     .container{
         flex-direction: row;
     }
