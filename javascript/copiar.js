@@ -11,4 +11,6 @@ btnCopiar.addEventListener("click", function(){
     document.execCommand("copy");
 
     document.body.removeChild(textArea);
+
+    limparCampos();
 });

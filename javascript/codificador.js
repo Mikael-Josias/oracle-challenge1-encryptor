@@ -79,9 +79,3 @@ btnDecodificar.addEventListener("click", function() {
     removeBackgroundCadeado();
     pSaida.innerHTML = textoDecodificado;
 });
-
-function removeBackgroundCadeado() {
-    var div = document.querySelector(".cadeadoImg");
-    
-    div.style.background = 'none';
-}

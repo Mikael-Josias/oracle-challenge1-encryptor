@@ -18,3 +18,25 @@ textoEntrada.addEventListener("input", function (){
 
     this.value = textoValidado;
 });
+
+
+function limparCampos(){
+    textoEntrada.value = '';
+    pSaida.innerHTML = '';
+
+    adicionaBackgroundCadeado();
+}
+
+function removeBackgroundCadeado() {
+    var div = document.querySelector(".cadeadoImg");
+    
+    div.style.backgroundImage = 'none';
+}
+
+function adicionaBackgroundCadeado() {
+    var background = document.querySelector(".cadeadoImg");
+
+    background.style.backgroundImage = "url(../img/lock.png)";
+    background.style.backgroundRepeat = "no-repeat";
+    background.style.backgroundPosition = "center";
+}
