@@ -109,7 +109,6 @@ body{
     box-shadow: 5px -5px #2A7221;
 
     padding: 5px 0;
-    width: 30%;
     cursor: pointer;
 }
 
@@ -137,6 +136,7 @@ body{
 /* OUTROS TAMANHOS DE TELA*/
 
 @media only screen and (min-width: 0){
+
     .container{
         flex-direction: column;
     }
@@ -170,5 +170,14 @@ body{
     
     .cadeadoImg{
         background-size: auto;
+    }
+
+    .container__botoes{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .botao{
+        width: 30%;
     }
 }
